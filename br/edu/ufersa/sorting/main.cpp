@@ -14,7 +14,7 @@ const int SIZE_C2 = 1000;
 // void generateRandom(int[], const int);
 void generateArray(char*, int size);
 void showArray(const int[], const int);
-
+/*
 int main(int argc, char const *argv[])
 {
     vnsort vn;
@@ -56,7 +56,7 @@ int main(int argc, char const *argv[])
     std::cout << "Array after heapsort: " << std::endl;
     showArray(array, ARRAYSIZE);
     delete [] array;
-    */
+    
 
     char conjunto0[] = "Conjunto0.dat";
     char conjunto1[] = "Conjunto1.dat";
@@ -72,7 +72,6 @@ int main(int argc, char const *argv[])
 
     fin.read((char*)vet, sizeof(int) * SIZE_C0);
     fin.close();
-
 
 
     delete[] vet;
@@ -104,7 +103,7 @@ int main(int argc, char const *argv[])
     
     return 0;
 }
-
+*/
 
 void generateArray(char* file_name, int size)
 {
